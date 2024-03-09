@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import userRoutes from "./backend/Routes/userRoute.js";
 import authRoutes from "./backend/Routes/authRoute.js";
+import cors from "cors";
 import dotenv from "dotenv";
 dotenv.config();
 mongoose
@@ -11,6 +12,7 @@ mongoose
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 // .........API Middleware Endpoint............//

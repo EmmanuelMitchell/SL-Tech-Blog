@@ -11,11 +11,7 @@ export default function Navbar() {
       <div className="flex sm:flex justify-between items-center max-w-6xl mx-auto">
         {/* <h4>Logo</h4> */}
 
-        <img
-          src="./public/logo.jpeg"
-          alt="SL-Logo"
-          className="h-12 rounded-full"
-        />
+        <img src=" /logo.jpeg" alt="SL-Logo" className="h-12 rounded-full" />
 
         <div className="hidden sm:inline relative">
           <input
